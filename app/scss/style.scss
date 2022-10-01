@@ -7,10 +7,102 @@
 
 
 
+.header {
+    background-image: url('../images/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
- 
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 34px 0; 
+        margin-bottom: 135px;
+    }
 
+    &__top-nav {
+        display: flex; 
+        align-items: center;
 
+        .menu__list {
+            display: flex; 
+        } 
+         
+        .menu__item + .menu__item {
+            margin-left: 33px; 
+           }      
+            
+        .menu__link { 
+          @extend %lato-500; 
+          color: $main-text-color;     
+          font-size: 16px;  
+          padding-bottom: 7px; 
+          border-bottom: 1px solid transparent;  
+          transition: all .3s;  
+          &:hover{  
+            color: $main-orange;   
+            border-bottom: 1px solid $main-orange;  
+          } 
+        }   
+         
+        .casual-btn { 
+            margin-left: 120px; 
+            padding: 10px 20px;  
+            transition: all .3s;  
+            border: 3px solid transparent; 
+         &:hover{  
+                color: $main-orange;   
+                border: 3px solid $main-orange;   
+                background-color: transparent;
+           } 
+
+        }
+    } 
+     
+    &__main { 
+        max-width: 518px; 
+        border: 1px solid transparent;   
+        margin-bottom: 123px;
+     } 
+      
+     &__main-title{ 
+        font-size: 64px; 
+        line-height: 88px; 
+        @extend %dm-serif-display-400;  
+        margin-bottom: 17px;
+        span{ 
+          color: $main-orange;
+        }
+    }    
+      
+    &__main-text{  
+       margin-bottom: 61px;
+    } 
+     
+    .header__main-btn{ 
+        @extend  %lato-700; 
+        color: $main-text-color; 
+        position: relative;   
+        padding-left: 57px; 
+      
+      &::before{ 
+        content: ''; 
+        width: 40px; 
+        height: 40px; 
+        border-radius: 50%; 
+        background-color: #078E14;   
+        background-image: url('../images/play.svg'); 
+        background-repeat: no-repeat; 
+        background-position: center;  
+        position: absolute; 
+        top: -9px; 
+        left: 0;
+      }   
+
+    }
+
+}
    
    
 
