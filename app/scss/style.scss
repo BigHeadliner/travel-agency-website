@@ -5,8 +5,6 @@
 @import 'global';
 
 
-
-
 .header {
     background-image: url('../images/header-bg.jpg');
     background-size: cover;
@@ -17,96 +15,221 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 34px 0; 
-        margin-bottom: 135px;
+        padding: 34px 0;
+        margin-bottom: 135px; 
+        border: 1px solid transparent; 
+        position:relative; 
+      .logo{ 
+        position: absolute; 
+        top: 70px;
+        left: 0;
+      }
     }
 
     &__top-nav {
-        display: flex; 
-        align-items: center;
+        display: flex;
+        align-items: center; 
+        margin-left: auto;
 
         .menu__list {
-            display: flex; 
-        } 
-         
-        .menu__item + .menu__item {
-            margin-left: 33px; 
-           }      
-            
-        .menu__link { 
-          @extend %lato-500; 
-          color: $main-text-color;     
-          font-size: 16px;  
-          padding-bottom: 7px; 
-          border-bottom: 1px solid transparent;  
-          transition: all .3s;  
-          &:hover{  
-            color: $main-orange;   
-            border-bottom: 1px solid $main-orange;  
-          } 
-        }   
-         
-        .casual-btn { 
-            margin-left: 120px; 
-            padding: 10px 20px;  
-            transition: all .3s;  
-            border: 3px solid transparent; 
-         &:hover{  
-                color: $main-orange;   
-                border: 3px solid $main-orange;   
-                background-color: transparent;
-           } 
+            display: flex;
+        }
 
+        .menu__item+.menu__item {
+            margin-left: 33px;
         }
-    } 
-     
-    &__main { 
-        max-width: 518px; 
-        border: 1px solid transparent;   
+
+        .menu__link {
+            @extend %lato-500;
+            color: $main-text-color;
+            font-size: 16px;
+            padding-bottom: 7px;
+            border-bottom: 1px solid transparent;
+            transition: all .3s;
+
+            &:hover {
+                color: $main-orange;
+                border-bottom: 1px solid $main-orange;
+            }
+        }
+
+        .casual-btn {
+            margin-left: 120px;
+            padding: 10px 20px;
+        }
+    }
+
+    &__main {
+        max-width: 518px;
+        border: 1px solid transparent;
         margin-bottom: 123px;
-     } 
-      
-     &__main-title{ 
-        font-size: 64px; 
-        line-height: 88px; 
-        @extend %dm-serif-display-400;  
+    }
+
+    &__main-title {
+        font-size: 64px;
+        line-height: 88px;
+        @extend %dm-serif-display-400;
         margin-bottom: 17px;
-        span{ 
-          color: $main-orange;
+
+        span {
+            color: $main-orange;
         }
-    }    
-      
-    &__main-text{  
-       margin-bottom: 61px;
-    } 
-     
-    .header__main-btn{ 
-        @extend  %lato-700; 
-        color: $main-text-color; 
-        position: relative;   
-        padding-left: 57px; 
-      
-      &::before{ 
-        content: ''; 
-        width: 40px; 
-        height: 40px; 
-        border-radius: 50%; 
-        background-color: #078E14;   
-        background-image: url('../images/play.svg'); 
-        background-repeat: no-repeat; 
-        background-position: center;  
-        position: absolute; 
-        top: -9px; 
-        left: 0;
-      }   
+    }
+
+    &__main-text {
+        margin-bottom: 61px;
+    }
+
+    .header__main-btn {
+        @extend %lato-700;
+        color: $main-text-color;
+        position: relative;
+        padding-left: 57px;
+
+        &::before {
+            content: '';
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #078E14;
+            background-image: url('../images/play.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            top: -9px;
+            left: 0;
+        }
 
     }
 
 }
    
-   
 
- 
+.tour{ 
+ background-color: #E4E4E4; 
+ padding-top: 130px; 
+     
+ &__top {   
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 40px;
+ }
+
+ &__top-title-wrapper { 
+    max-width: 679px;
+ } 
+  
+ &__top-title{ 
+    @extend %lato-600;
+    font-size: 32px; 
+    margin-bottom: 20px;
+ } 
+  
+ &__top-subtitle{ 
+    color: $second-text-color;
+ }  
+  
+ .casual-btn{ 
+   padding: 20px 30px;
+ }  
+   
+ &__options{ 
+    border: 1px solid transparent; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 128px;
+ }  
+
+ &__option{ 
+   max-width: 395px; 
+   border: 1px solid transparent;
+ } 
+  
+ &__option-img-wrapper{ 
+    position: relative; 
+    margin-bottom: 20px;
+ } 
+  
+ &__option-price{ 
+    padding: 25px 12px; 
+    background-color: #FFF; 
+    color: $main-orange; 
+    max-width: 72px; 
+    @extend %lato-600; 
+    position: absolute; 
+    bottom: 23px;
+    right: 23px;
+ } 
+  
+ &__option-title{ 
+     @extend %lato-600; 
+     font-size: 18px; 
+     color: $main-text-color; 
+     margin-bottom: 20px;
+ } 
+  
+ &__option-text{ 
+    color: $main-text-color;  
+    margin-bottom: 20px; 
+ }  
+  
+ &__option-btn{ 
+    padding-right: 25px;  
+    border: 1px solid transparent;
+    position: relative; 
+    @extend %lato-500; 
+    color: $main-orange; 
+     
+    &::after{ 
+        content: ""; 
+        width: 17px;  
+        height: 17px; 
+        background-image: url('../images/tour/option-arrow.svg');   
+        background-repeat: no-repeat; 
+        background-position: center;
+        position: absolute;  
+        right: -5px;
+        top: 2px;
+    }
+ } 
+  
+ &__statistics { 
+    border: 1px solid transparent; 
+    padding: 43px 0; 
+    display: flex; 
+    justify-content: space-between;
+ } 
+  
+ &__statistics-item{ 
+    border: 1px solid transparent;   
+    max-width: 330px; 
+    text-align: center;
+ } 
+  
+ &__statistics-num1, 
+ &__statistics-num2, 
+ &__statistics-num3{ 
+    @extend %lato-800;     
+    font-size: 56px; 
+    color: #078E14; 
+    margin-bottom: 40px;  
+    position: relative; 
+     
+   &::after{ 
+      content: '+';  
+      font-size: 57px;  
+      padding-left: 15px;
+      color: $main-text-color;
+    }
+ } 
+  
+ &__statistics-title{ 
+     font-size: 32px; 
+     @extend %lato-700; 
+  }
+
+}
   
  
    

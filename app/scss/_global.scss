@@ -14,12 +14,21 @@ body {
     max-width: 1270px; 
     margin: 0 auto; 
     padding: 0 15px;  
-    border: 1px solid green;
+    border: 1px solid green; 
+    border: 1px solid transparent;
 } 
  
 
 .casual-btn{ 
     background-color: $main-orange; 
-    font-size: 16px; 
-    color:#fff;
+    font-size: 16px;  
+    @extend %lato-500;
+    color:#fff; 
+    transition: all .3s;
+    border: 3px solid transparent; 
+    &:hover {
+        color: $main-orange;
+        border: 3px solid $main-orange;
+        background-color: transparent;
+    }
 }
