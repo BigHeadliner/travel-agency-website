@@ -197,7 +197,8 @@
 } 
  
 .statistics {
-    background-color: #FBFBFB;
+    background-color: #FBFBFB;  
+    background-color: #1B1B1B; 
 
     &__inner {
         border: 1px solid transparent;
@@ -217,7 +218,7 @@
     &__num3 {
         @extend %lato-800;
         font-size: 56px;
-        color: #078E14;
+        color: #078E14; 
         margin-bottom: 40px;
         position: relative;
 
@@ -225,16 +226,95 @@
             content: '+';
             font-size: 57px;
             padding-left: 15px;
-            color: $main-text-color;
+            color: $main-text-color;   
+            color: #FFF; 
         }
     }
 
     &__title {
         font-size: 32px;
-        @extend %lato-700;
+        @extend %lato-700; 
+        color: #FFF; 
     }
 }
- 
+  
+.about{ 
+   background-color: #e4e4e4;  
+   padding-top: 128px;  
+
+ &__inner{ 
+    display: flex; 
+    justify-content: space-between;
+  } 
+
+   &__suptitle{ 
+     color:$main-orange;  
+     font-size: 15px; 
+     padding-left: 107px; 
+     position: relative;  
+     margin: 7px 0 40px;
+      
+     &::before{ 
+        content: ''; 
+        height: 1px; 
+        width: 77px; 
+        background-color: $main-orange;  
+        position: absolute; 
+        top: 10px; 
+        left: 0;
+     }
+   } 
+    
+   &__title{ 
+    @extend  %lato-600; 
+    font-size: 48px; 
+    line-height: 57px; 
+    max-width: 297px; 
+    margin-bottom: 20px;
+   } 
+    
+   &__text{ 
+    color: #4A4949;  
+    max-width: 500px; 
+    margin-bottom: 40px;
+   } 
+    
+    .casual-btn{ 
+       padding: 20px 30px; 
+       display: inline-block;
+    } 
+     
+    &__images{ 
+        max-width: 605px;  
+        height: 610px;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);   
+        grid-template-rows: 207px 207px 207px; 
+        grid-gap: 30px;
+     }  
+
+       &__img-company-looks-map{  
+           grid-column-start: 1;
+           grid-column-end: 2;     
+           grid-row-start: 1;     
+           grid-row-end: 2;      
+           margin-left: auto;
+        } 
+      
+
+      &__img-company-in-pool{   
+          grid-row-start: 2;
+          grid-row-end: 4;  
+      } 
+       
+      &__img-girl-with-backpack{ 
+        grid-row-start: 3;
+        grid-row-end: 4;   
+        margin-top: -70px;
+      }
+
+    
+}
    
 
  
