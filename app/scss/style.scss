@@ -451,7 +451,8 @@
      
    &__inner{ 
     position: relative; 
-    border: 1px solid transparent;
+    border: 1px solid transparent; 
+    padding-top: 25px;
    }
 
    &__title{ 
@@ -539,6 +540,110 @@
    &__author-position{ 
      color:#078E14;
    }
+} 
+ 
+.team{ 
+    padding-top: 295px;   
+
+ &__title{ 
+    @extend %lato-700; 
+    font-size: 48px; 
+    margin-bottom: 45px; 
+ }   
+
+ &__members{ 
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    margin-bottom: 127px;
+ }
+
+ &__member{ 
+   //border: 1px solid transparent; 
+   max-width: 310px;   
+   height: 333px; 
+   position: relative;
+   overflow: hidden; 
+   cursor: pointer;   
+
+   &:hover{ 
+    .team__member-info{  
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; 
+        transition: all .5s; 
+     }  
+   }
+  
+ }     
+  
+ &__member--1{ 
+    background-image: url('../images/team/member1.jpg'); 
+    background-repeat: no-repeat; 
+ } 
+  
+ &__member--2{ 
+    background-image: url('../images/team/member2.jpg'); 
+    background-repeat: no-repeat; 
+ } 
+  
+ &__member--3{ 
+    background-image: url('../images/team/member3.jpg'); 
+    background-repeat: no-repeat; 
+ } 
+  
+ &__member--4{ 
+    background-image: url('../images/team/member4.jpg'); 
+    background-repeat: no-repeat; 
+ } 
+   
+ &__member--5{ 
+    background-image: url('../images/team/member5.jpg'); 
+    background-repeat: no-repeat; 
+ } 
+  
+ &__member--6{ 
+    background-image: url('../images/team/member6.jpg'); 
+    background-repeat: no-repeat; 
+ } 
+  
+ &__member--7{ 
+    background-image: url('../images/team/member7.jpg'); 
+    background-repeat: no-repeat; 
+ } 
+  
+ &__member--8{ 
+    background-image: url('../images/team/member8.jpg'); 
+    background-repeat: no-repeat; 
+ }
+
+ &__member-info{  
+    text-align: center; 
+    padding-top: 93px;  
+    background-color: #1064AE99; 
+    opacity: 0.7;
+    color:#FFF;  
+    position: absolute; 
+    left: -700px;
+ } 
+  
+ &__member-title{ 
+    @extend  %lato-700; 
+    font-size: 32px; 
+    margin-bottom: 20px;
+ } 
+  
+ &__member-subtitle{ 
+     margin-bottom: 20px;
+ }
+ 
+ &__member-text{   
+    display: inline-block;
+    margin-bottom: 90px; 
+  }
+
 }
 
 @import 'media'; 
