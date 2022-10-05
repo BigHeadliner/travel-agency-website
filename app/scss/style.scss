@@ -444,7 +444,8 @@
 }
    
 .reviews{  
-    background: #F4F4F4;
+    background: #F4F4F4; 
+
    &__suptitle{ 
     margin-bottom: 20px;
    } 
@@ -643,6 +644,162 @@
     display: inline-block;
     margin-bottom: 90px; 
   }
+
+} 
+ 
+.book{ 
+    background-image: url('../images/book/book-bg.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    padding-top: 65px;   
+    margin-bottom: 128px;
+
+ &__title{ 
+    color: #FFF; 
+    @extend  %lato-700;  
+    font-size: 48px; 
+    margin-bottom: 30px; 
+  }    
+  
+ &__subtitle{ 
+   max-width: 689px; 
+   color: #F2F2F2; 
+   margin-bottom: 40px;
+ }  
+  
+ &__btn{ 
+    padding: 20px 30px;  
+    background: #FFF;   
+    @extend  %lato-700;  
+    margin-bottom: 110px; 
+    display: inline-block; 
+    color:#1D1B1B; 
+    border: 1px solid transparent;
+ } 
+
+} 
+ 
+.footer{ 
+    background-color:#1D1B1B; 
+    color: #F2F2F2; 
+    padding-top: 49px;
+} 
+ 
+.footer-inner {
+    position: relative; 
+    border-bottom: 1px solid #4A4949;  
+    margin-bottom: 97px;   
+    display: flex; 
+    justify-content: space-between;
+     
+    &__social{ 
+        max-width: 399px; 
+        border: 1px solid transparent;
+    }
+
+    &__social-logo {
+        display: block;
+    }
+
+    &__social-logo-img {
+        margin-bottom: 45px;
+    }
+
+    &__social-text {
+        color: #F2F2F2;
+        width: 390px; 
+        line-height: 25px; 
+        margin-bottom: 45px;
+    } 
+      
+   &__social-items{ 
+     width: 100%; 
+     max-width: 250px; 
+     display: flex; 
+     justify-content: space-between; 
+     margin-bottom: 57px;
+   } 
+
+   &__social-item{ 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    border: 1px solid #BFBFBF;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+   } 
+     
+   &__service{ 
+     max-width: 90px; 
+     border: 1px solid transparent;
+   }
+
+   &__service-title{ 
+     font-size: 25px; 
+     @extend  %lato-500;   
+     color: #FFF; 
+     margin-bottom: 45px;
+   } 
+    
+   &__service-menu-item{ 
+     margin-bottom: 17px;
+   } 
+    
+   &__service-menu-link{  
+     color:#F2F2F2;
+   } 
+     
+   &__contact{ 
+     color: #F2F2F2; 
+     max-width: 245px; 
+     border: 1px solid transparent;
+   } 
+
+   &__contact-title{ 
+    font-size: 25px; 
+    @extend  %lato-500;   
+    color: #FFF; 
+    margin-bottom: 45px;
+   } 
+ 
+   &__contact-location-item, 
+   &__contact-phone-item, 
+   &__contact-email-item{ 
+     padding-left: 40px; 
+     margin-bottom: 21px; 
+     position: relative;  
+     border: 1px solid transparent;
+   } 
+    
+   &__contact-location-link, 
+   &__contact-phone-link, 
+   &__contact-email-link{ 
+     color: #F2F2F2; 
+    &:before{ 
+        content: ''; 
+        width: 25px; 
+        height: 25px; 
+        background-image: url('../images/footer/contact/location.svg'); 
+        background-repeat: no-repeat; 
+        position: absolute; 
+        top: 0;
+        left: 7px;
+    } 
+   } 
+    
+   &__contact-phone-link{ 
+    &:before{ 
+        background-image: url('../images/footer/contact/phone.svg'); 
+     } 
+   } 
+    
+   &__contact-email-link{ 
+    &:before{ 
+        background-image: url('../images/footer/contact/email.svg'); 
+     } 
+   }
 
 }
 
