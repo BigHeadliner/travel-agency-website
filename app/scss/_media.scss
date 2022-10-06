@@ -22,6 +22,19 @@
    
   .tour .casual-btn {
     padding: 20px 20px;
+  } 
+   
+    
+//----- statistics -----//
+
+  .statistics__inner { 
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+  }
+
+  .statistics__item {
+      margin: 40px;
   }
    
  } 
@@ -195,6 +208,12 @@
     line-height: 57px; 
     margin-bottom: 25px;
   }
+ 
+//----- statistics -----//
+
+  .statistics__title{   
+    line-height: 40px;  
+  }  
 
 } 
  
@@ -260,5 +279,5 @@
     .tour__options {
         margin-bottom: 35px;
     } 
-    
+
 }
