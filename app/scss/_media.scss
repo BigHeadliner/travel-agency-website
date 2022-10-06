@@ -1,15 +1,82 @@
-@media(max-width: 845px){  
+ 
+  
+ @media(max-width: 1225px){    
+      
+    //-----   tour -----//  
+ 
+  .tour__option{ 
+     margin: 10px 5px;
+   }
+
+ }
+  
+    
+  
+ @media(max-width: 975px){   
+    
+  //-----   tour -----//   
+  
+  .tour {
+    padding-top: 105px;
+  }   
+   
+  .tour .casual-btn {
+    padding: 20px 20px;
+  }
+   
+ } 
+    
+     
+
+@media(max-width: 845px) {
 
     //-----  header -----// 
-     
+
     .header__top .logo {
         position: absolute;
         top: 90px;
         left: 0;
     }
-    
+
+
+    //-----   tour -----//     
+
+    .tour__options {
+        margin-bottom: 85px;
+    }
+
+    .tour .casual-btn {
+        padding: 14px 13px;
+        display: block;
+        width: 105px;
+        height: 57px;
+    }
+
+    .tour__top-subtitle {
+        max-width: 500px;
+    }
+}
+   
+@media(max-width: 834px) {
+
+    //-----   tour -----//       
+     
+    .tour__top { 
+        margin-bottom: 57px;
+    }
+
+    .tour__options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tour__option {
+        margin: 15px 7px;
+    }
+
 } 
-  
+ 
  
 @media(max-width: 750px){ 
  
@@ -19,7 +86,22 @@
         padding: 0 10px;  
     } 
 }
+  
  
+@media(max-width: 700px) {
+
+    // ----- tour -----// 
+
+    .tour__top {
+        flex-wrap: wrap; 
+        margin-bottom: 35px;
+    }
+
+    .tour .casual-btn {
+        margin: 25px 17px;
+    }
+}
+
 @media(max-width: 650px){  
 
     //-----  header -----//    
@@ -86,11 +168,17 @@
     .header__main-title {
         font-size: 47px;
         line-height: 70px;
-    } 
+    }   
+     
+    // ----- tour -----/
+     
+    .tour__options {
+        margin-bottom: 50px; 
+    }
 
 } 
  
-@media(max-width: 530px){    
+@media(max-width: 450px){    
      
    // ----- header -----//     
     
@@ -120,6 +208,12 @@
 
     .header__top-nav .casual-btn {
         padding: 10px 15px;
+    } 
+     
+    // -----tour -----//  
+
+    .tour {
+        padding-top: 75px;
     }
 
 } 
@@ -150,5 +244,21 @@
 
     .header__main {
         margin-bottom: 80px;
+    }  
+      
+
+    // ----- tour ----- //  
+      
+    .tour__top {
+        margin-bottom: 10px; 
     }
+
+    .tour__top-title {
+        line-height: 37px;
+    } 
+     
+    .tour__options {
+        margin-bottom: 35px;
+    } 
+    
 }
