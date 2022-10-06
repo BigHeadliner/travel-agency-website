@@ -1,5 +1,24 @@
-$(function () {
+$(function () { 
+     
+    $('.menu__btn').on('click', function(){ 
+        $('.menu__list').toggleClass('menu__list--active')
+    }) 
+     
+    $('.menu__link').on('click', function(){ 
+        $('.menu__list').removeClass('menu__list--active')
+    })
 
+    const toTop = document.querySelector('.scroll-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+            toTop.classList.add('active');
+        } else {
+            toTop.classList.remove('active');
+        }
+    }) 
+     
+     
 
     const counterUp = window.counterUp.default
 

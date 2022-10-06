@@ -1,6 +1,12 @@
   
+  
  
-body {
+  html {  
+    scroll-behavior: smooth;  
+ }
+      
+
+ body {
   // min-height:100vh; 
     color: $main-text-color;
     font-style: normal;
