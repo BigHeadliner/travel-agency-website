@@ -1,5 +1,36 @@
  
+   
+@media(max-width: 1233px){   
+      
+    //-----  benefits -----//   
+      
+ .benefits{ 
+    padding-top: 37px;
+ } 
+    
+ .benefits__wrapper { 
+    flex-wrap: wrap; 
+    justify-content: center;
+ }    
   
+ .benefits__img{ 
+    margin-bottom: 40px;
+ }
+ 
+ .benefits__img-title{ 
+    margin-bottom: 47px;
+ }  
+
+ .benefits__img-photo{ 
+    position: inherit 
+  }  
+
+  .benefits__content-text {
+    margin-bottom: 70px;
+}
+    
+ }
+
  @media(max-width: 1225px){    
       
     //-----   tour -----//  
@@ -212,6 +243,21 @@
 
     .about__img-girl-with-backpack {
         margin-top: -85px;
+    } 
+     
+     
+    //----- benefits -----// 
+     
+    .benefits__content{ 
+        text-align: center;
+    }   
+     
+    .benefits__content-text{ 
+        margin: 0 auto 70px;
+    } 
+     
+    .benefits__content-item-img{ 
+        margin: 0 auto 20px;
     }
 
 }
@@ -257,7 +303,17 @@
        
     }
 
-} 
+}  
+ 
+@media(max-width: 570px) {
+
+    //----- benefits -----//   
+
+    .benefits__content-items {
+        grid-gap: 50px;
+    }
+
+}
 
 
 @media(max-width: 530px){    
@@ -290,7 +346,24 @@
     }  
 
 } 
- 
+  
+@media(max-width: 510px){     
+   
+    // ------ benefits -----// 
+     
+ .benefits__content-items{ 
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+ }    
+  
+ .benefits__content-item{ 
+     margin: 0 auto; 
+     padding: 15px 10px; 
+     border: 1px solid #FF9F1C;
+   }
+
+} 
+
 @media(max-width: 450px){    
      
    // ----- header -----//     
@@ -323,7 +396,22 @@
   .about__img-company-in-pool, 
   .about__img-girl-with-backpack{  
      margin: 9px;
+  }  
+    
+  //-----  benefits -----//  
+
+  .benefits__img-title{ 
+     margin-bottom: 40px; 
+     font-size: 25px;
+  }  
+   
+  .benefits__content-text {
+    margin: 0 auto 50px;
   } 
+   
+  .benefits__content-items {
+    grid-gap: 40px;
+ }
 
 } 
  
