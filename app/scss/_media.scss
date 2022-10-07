@@ -1,5 +1,54 @@
  
-   
+ @media(max-width: 1230px) {
+
+     //-----  album -----//  
+
+     .album__photos {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         grid-gap: 0;
+     }
+
+
+     .album__landscape,
+     .album__girl-with-backpack {
+         height: 327px;
+     }
+
+
+     .album__girl-on-edge,
+     .album__landscape,
+     .album__venice,
+     .album__girl-with-backpack,
+     .album__couple-walking,
+     .album__houses-on-lake {
+         margin: 15px;
+     }
+
+     .album__girl-on-edge {
+         order: 1;
+         height: 518px;
+     }
+
+     .album__couple-walking {
+         order: 2;
+         height: 518px;
+     }
+
+     .album__venice {
+         order: 3;
+         height: 518px;
+     }
+
+
+     .album__houses-on-lake {
+         height: 327px;
+         order: 5;
+     }
+
+ }
+
 @media(max-width: 1233px){   
       
     //-----  benefits -----//   
@@ -10,7 +59,8 @@
     
  .benefits__wrapper { 
     flex-wrap: wrap; 
-    justify-content: center;
+    justify-content: center; 
+    padding-bottom: 25px;
  }    
   
  .benefits__img{ 
@@ -58,7 +108,13 @@
    .about__content, 
    .about__images{ 
      margin: 30px;
-   }
+   } 
+     
+   // -----album -----//    
+
+   .album {
+    padding-top: 137px; 
+  }
 
  }
     
@@ -86,7 +142,13 @@
 
   .statistics__item {
       margin: 40px;
-  }
+  } 
+   
+   // -----album -----//    
+
+   .album {
+    padding-top: 97px; 
+   }
    
  } 
     
@@ -262,7 +324,8 @@
 
 }
   
-@media(max-width: 598px){   
+@media(max-width: 598px){    
+
     .about__images{  
         display: flex; 
         flex-wrap: wrap; 
@@ -360,7 +423,13 @@
      margin: 0 auto; 
      padding: 15px 10px; 
      border: 1px solid #FF9F1C;
-   }
+   } 
+    
+    // -----album -----//    
+
+    .album {
+        padding-top: 81px; 
+       }
 
 } 
 
@@ -412,6 +481,23 @@
   .benefits__content-items {
     grid-gap: 40px;
  }
+  
+    //----- album -----//  
+     
+ .album__title { 
+    line-height: 37px;
+ } 
+
+ .album__girl-on-edge,
+ .album__landscape,
+ .album__venice,
+ .album__girl-with-backpack,
+ .album__couple-walking,
+ .album__houses-on-lake {
+     margin: 10px; 
+     height: auto;
+ }
+
 
 } 
  

@@ -446,7 +446,8 @@
         grid-template-rows: 300px 300px 300px;
         grid-template-columns: 393px 393px 393px;
         column-gap: 32px; 
-        row-gap: 32px;
+        row-gap: 32px; 
+        overflow: hidden;
     } 
      
     &__girl-on-edge{ 
@@ -860,7 +861,8 @@
 .scroll-to-top.active{ 
     bottom: 37px; 
     pointer-events: auto; 
-    opacity: 1;
+    opacity: 1; 
+    display: none;
 }
 
 @import 'media'; 
