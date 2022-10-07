@@ -1,5 +1,40 @@
- 
- @media(max-width: 1230px) {
+  
+   
+    @media(max-width: 1233px){   
+      
+        //-----  benefits -----//   
+          
+     .benefits{ 
+        padding-top: 37px;
+     } 
+        
+     .benefits__wrapper { 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        padding-bottom: 25px;
+     }    
+      
+     .benefits__img{ 
+        margin-bottom: 40px;
+     }
+     
+     .benefits__img-title{ 
+        margin-bottom: 47px;
+     }  
+    
+     .benefits__img-photo{ 
+        position: inherit 
+      }  
+    
+      .benefits__content-text {
+        margin-bottom: 70px;
+    }
+        
+     }
+
+  
+   
+   @media(max-width: 1230px) {
 
      //-----  album -----//  
 
@@ -45,41 +80,32 @@
      .album__houses-on-lake {
          height: 327px;
          order: 5;
-     }
-
- }
-
-@media(max-width: 1233px){   
+     } 
       
-    //-----  benefits -----//   
+    //----- reviews -----// 
       
- .benefits{ 
-    padding-top: 37px;
- } 
-    
- .benefits__wrapper { 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    padding-bottom: 25px;
- }    
-  
- .benefits__img{ 
-    margin-bottom: 40px;
- }
- 
- .benefits__img-title{ 
-    margin-bottom: 47px;
- }  
+    .reviews__inner { 
+       padding-bottom: 25px; 
+       text-align: center;
+    }
 
- .benefits__img-photo{ 
-    position: inherit 
-  }  
+    .reviews__title{ 
+        margin: 0 auto 45px;
+    } 
+     
+    .reviews__items{ 
+        position: initial; 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+    .reviews__item{ 
+       margin: 15px;
+    }
 
-  .benefits__content-text {
-    margin-bottom: 70px;
-}
-    
  }
+
+
 
  @media(max-width: 1225px){    
       
@@ -151,7 +177,19 @@
    }
    
  } 
-    
+     
+ @media(max-width: 875px) {  
+     
+   // -----reviews -----//     
+   
+   .reviews__title {
+    font-size: 48px;
+    line-height: 57px;  
+    margin: 0 auto 37px;
+  }  
+
+}
+
      
 
 @media(max-width: 845px) {
@@ -180,7 +218,14 @@
 
     .tour__top-subtitle {
         max-width: 500px;
-    }
+    } 
+      
+    //----- reviews -----//     
+
+    .reviews__inner {
+        padding: 25px 0 25px; 
+    } 
+
 }
    
 @media(max-width: 834px) {
@@ -396,17 +441,23 @@
         line-height: 70px;
     }   
      
-    // ----- tour -----/
+    // ----- tour -----//
      
     .tour__options {
         margin-bottom: 50px; 
     } 
      
-   // ----- about-----/
+   // ----- about-----//
  
     .about__inner{ 
        padding-bottom: 0;
-    }  
+    }   
+      
+    // ----- reviews -----// 
+
+    .reviews__title {
+        margin: 0 auto 30px;
+    } 
 
 } 
   
@@ -499,7 +550,35 @@
  }
 
 
+}  
+ 
+@media(max-width: 435px) {  
+      
+      //----- reviews -----//    
+       
+      .reviews__decor {
+        position: absolute;
+        top: -7px;
+        left: 6px;
+    }  
+
+    .reviews__item {
+        padding: 30px 23px 30px;
+    } 
+     
+    .reviews__item-text {
+        margin-bottom: 23px;
+    } 
+     
+    .reviews__author-name::before,  
+    .reviews__author-name-mod::before { 
+        position: absolute;
+        top: -1px;
+        left: 25px;
+    }
+
 } 
+
  
 @media(max-width: 395px) {
 
@@ -566,6 +645,39 @@
      
     .tour__options {
         margin-bottom: 35px;
+    }  
+     
+      // ----- reviews ----- //   
+     
+    .reviews__title {
+        font-size: 40px;
+        line-height: 50px;  
+        margin: 0 auto 15px;
     } 
 
-}
+} 
+ 
+@media(max-width: 350px) {   
+     
+    // ----- reviews ----- //      
+     
+    .reviews__item {
+        padding: 15px 13px 15px;  
+        margin: 15px 4px;
+
+    } 
+
+    .reviews__decor {
+        position: absolute;
+        top: -7px;
+        left: -9px;
+    }    
+     
+    .reviews__item-text-padding {
+        padding-left: 5px;
+    }
+    .reviews__item-text {
+        margin-bottom: 19px;
+    }  
+} 
+ 
