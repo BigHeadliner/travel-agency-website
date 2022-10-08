@@ -601,8 +601,9 @@
  }
 
  &__member{ 
-   //border: 1px solid transparent; 
-   max-width: 310px;   
+   //border: 1px solid transparent;  
+   width: 100%;
+   max-width: 310px;    
    height: 333px; 
    position: relative;
    overflow: hidden; 
