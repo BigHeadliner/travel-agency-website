@@ -1,791 +1,947 @@
   
    
-    @media(max-width: 1233px){   
-      
-        //-----  benefits -----//   
-          
-     .benefits{ 
-        padding-top: 37px;
-     } 
-        
-     .benefits__wrapper { 
-        flex-wrap: wrap; 
-        justify-content: center; 
-        padding-bottom: 25px;
-     }    
-      
-     .benefits__img{ 
-        margin-bottom: 40px;
-     }
-     
-     .benefits__img-title{ 
-        margin-bottom: 47px;
-     }  
+        @media(max-width: 1233px) {
     
-     .benefits__img-photo{ 
-        position: inherit 
-      }  
+            //-----  benefits -----//   
     
-      .benefits__content-text {
-        margin-bottom: 70px;
-    }
-        
-     }
-
-  
-   
-   @media(max-width: 1230px) {
-
-     //-----  album -----//  
-
-     .album__photos {
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: center;
-         grid-gap: 0;
-     }
-
-
-     .album__landscape,
-     .album__girl-with-backpack {
-         height: 327px;
-     }
-
-
-     .album__girl-on-edge,
-     .album__landscape,
-     .album__venice,
-     .album__girl-with-backpack,
-     .album__couple-walking,
-     .album__houses-on-lake {
-         margin: 15px;
-     }
-
-     .album__girl-on-edge {
-         order: 1;
-         height: 518px;
-     }
-
-     .album__couple-walking {
-         order: 2;
-         height: 518px;
-     }
-
-     .album__venice {
-         order: 3;
-         height: 518px;
-     }
-
-
-     .album__houses-on-lake {
-         height: 327px;
-         order: 5;
-     } 
-      
-    //----- reviews -----// 
-      
-    .reviews__inner { 
-       padding-bottom: 25px; 
-       text-align: center;
-    }
-
-    .reviews__title{ 
-        margin: 0 auto 45px;
-    } 
-     
-    .reviews__items{ 
-        position: initial; 
-        flex-wrap: wrap; 
-        justify-content: center;
-    } 
-     
-    .reviews__item{ 
-       margin: 15px;
-    }
- 
-      
-    //----- team -----// 
-
-    .team {
-        padding-top: 40px;
-    } 
-
- }
-
-
-
- @media(max-width: 1225px){    
-      
-    //-----   tour -----//  
- 
-  .tour__option{ 
-     margin: 10px 5px;
-   }
-
- }
-   
-  
- @media(max-width: 1170px){       
-
-    // ----- about -----//    
-
-    .about { 
-        padding-top: 47px;
-    }
-
-    .about__inner{ 
-      flex-wrap: wrap;  
-      justify-content: center;
-    }   
-     
-   .about__content, 
-   .about__images{ 
-     margin: 30px;
-   } 
-     
-   // -----album -----//    
-
-   .album {
-    padding-top: 137px; 
-  }
-  
-  
- //----- team -----//
+            .benefits {
+                padding-top: 37px;
+            }
     
-  .team__members{ 
-    display: grid; 
-    place-items: center; 
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);  
-    row-gap: 35px; 
-    column-gap: 0; 
-    margin-bottom: 127px; 
-   }   
-
-   
- }
-     
-   @media(max-width: 1040px) {
-
-       //-----   team  -----//   
-
-       .team__title {
-           margin-bottom: 57px; 
-           line-height: 43px;
-       }
-
-       .team__members {
-           row-gap: 25px;
-       }
-
-   }
-
+            .benefits__wrapper {
+                flex-wrap: wrap;
+                justify-content: center;
+                padding-bottom: 25px;
+            }
     
-   @media(max-width: 995px){    
-      
-    //-----   team  -----//     
-
-    .team__members{ 
-          display: grid; 
-          place-items: center; 
-          grid-template-columns: repeat(2, 1fr);
-          grid-template-rows: repeat(4, 1fr);  
-          row-gap: 35px; 
-          column-gap: 0; 
-       }     
-        
-       .team__members{  
-         display: flex;  
-         justify-content: center;
-         flex-wrap: wrap; 
-         row-gap: 0; 
-       }    
-        
-       .team__member{ 
-        margin: 15px;
-       }
-
-   }
-
-  
- @media(max-width: 975px){   
+            .benefits__img {
+                margin-bottom: 40px;
+            }
     
-  //-----   tour -----//   
-  
-  .tour {
-    padding-top: 105px;
-  }   
-   
-  .tour .casual-btn {
-    padding: 20px 20px;
-  } 
-   
+            .benefits__img-title {
+                margin-bottom: 47px;
+            }
     
-//----- statistics -----//
-
-  .statistics__inner { 
-      display: flex;
-      flex-wrap: wrap; 
-      justify-content: center;
-  }
-
-  .statistics__item {
-      margin: 40px;
-  } 
-   
-   // -----album -----//    
-
-   .album {
-    padding-top: 97px; 
-   }
-     
-   // -----book -----//  
-
-   .book__title { 
-    line-height: 43px;
-   } 
-
- } 
-     
- @media(max-width: 875px) {  
-     
-   // -----reviews -----//     
-   
-   .reviews__title {
-    font-size: 48px;
-    line-height: 57px;  
-    margin: 0 auto 37px;
-  }  
-
-}
-
-     
-
-@media(max-width: 845px) {
-
-    //-----  header -----// 
-
-    .header__top .logo {
-        position: absolute;
-        top: 90px;
-        left: 0;
-    }
-
-
-    //-----   tour -----//     
-
-    .tour__options {
-        margin-bottom: 85px;
-    }
-
-    .tour .casual-btn {
-        padding: 14px 13px;
-        display: block;
-        width: 105px;
-        height: 57px;
-    }
-
-    .tour__top-subtitle {
-        max-width: 500px;
-    } 
-      
-    //----- reviews -----//     
-
-    .reviews__inner {
-        padding: 25px 0 25px; 
-    } 
-
-}
-   
-@media(max-width: 834px) {
-
-    //-----   tour -----//       
-     
-    .tour__top { 
-        margin-bottom: 57px;
-    }
-
-    .tour__options {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .tour__option {
-        margin: 15px 7px;
-    }
-
-} 
- 
- 
-@media(max-width: 750px){ 
- 
-// -----  container  ----- //
-
-    .container{ 
-        padding: 0 10px;  
-    } 
-}
-  
- 
-@media(max-width: 700px) {
-
-    // ----- tour -----// 
-
-    .tour__top {
-        flex-wrap: wrap; 
-        margin-bottom: 35px;
-    }
-
-    .tour .casual-btn {
-        margin: 25px 17px;
-    }
-} 
- 
-@media(max-width: 670px){     
-     
-    //-----  about -----//
- 
-    .about__img-girl-with-backpack{ 
-        margin-top: -81px;
-    }  
-} 
-
-
-@media(max-width: 650px){  
-
-    //-----  header -----//    
-      
-    .header__top .logo {
-        position: initial;  
-     } 
-      
-     .menu{ 
-        order: 3;
-     }
-     
-    .header__top-nav .menu__list{ 
-        display: block; 
-        position: absolute; 
-        left: 0;  
-        right: 0; 
-        background-color: #fff; 
-        text-align: center;  
-        transition: all .3s;
-        transform:translateY(-300%);
-      }   
-       
-    .header__top-nav .menu__list.menu__list--active{ 
-          transform:translateY(21%);   
-          transition: all .3s;
-      } 
-       
-    .header__top-nav .menu__item + .menu__item { 
-        margin-left: 0;
-      }
-       
-     .menu__list .menu__link{ 
-          display: block;  
-          font-size: 17px;
-          padding: 15px 0; 
-      }
-        
-    .header__top-nav .casual-btn {
-        padding: 10px 20px;
-        display: block;
-        order: 0;
-        margin: 0 30px 0 0;
-    }
-
-    .header__top-nav .menu__btn{ 
-          display:block; 
-      }   
-       
-    // ----- about -----//
-
-    .about__img-girl-with-backpack{ 
-        margin-top: -95px;
-      }
-} 
-   
+            .benefits__img-photo {
+                position: inherit
+            }
     
-@media(max-width: 630px) {
-
-    //----- about -----//
-
-    .about__images {
-        grid-gap: 15px
-    }
-
-    .about__img-girl-with-backpack {
-        margin-top: -85px;
-    } 
-     
-     
-    //----- benefits -----// 
-     
-    .benefits__content{ 
-        text-align: center;
-    }   
-     
-    .benefits__content-text{ 
-        margin: 0 auto 70px;
-    } 
-     
-    .benefits__content-item-img{ 
-        margin: 0 auto 20px;
-    }
-   
-       
-    //----- book -----//   
-     
-    .book{ 
-        padding-top: 30px;
-    } 
-
-    .book__btn {
-        margin-bottom: 83px; 
-    }   
-     
-    .book__title{ 
-        line-height: 47px;
-    }
-
-}
-  
-@media(max-width: 598px){    
-
-    .about__images{  
-        display: flex; 
-        flex-wrap: wrap; 
-        justify-content: center; 
-        grid-gap: 0; 
-        height: auto;
-    }  
-     
-    .about__img-company-looks-map{ 
-        margin-left: 0; 
-        margin: 15px;
-    } 
-     
-    .about__img-girl-with-map,
-    .about__img-company-in-pool, 
-    .about__img-girl-with-backpack{ 
-        margin: 15px;
-    }
-} 
-
-@media(max-width: 595px){     
-      
-     //----- about -----// 
-
-    .about__images {  
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, 1fr);    
-    } 
-     
-    .about__img-girl-with-map{ 
-        grid-row-start: 1;
-        grid-row-end: 3;
-    } 
-     
-    .about__img-girl-with-backpack{ 
-        grid-row-start: 3;
-        grid-row-end: 4;
-       
-    }
-
-}  
- 
-@media(max-width: 570px) {
-
-    //----- benefits -----//   
-
-    .benefits__content-items {
-        grid-gap: 50px;
-    }
-
-}
-
-
-@media(max-width: 530px){    
-
-    // ----- header -----// 
-     
-    .header__top{ 
-        margin-bottom: 125px;
-    } 
-      
-    .header__main { 
-        margin-bottom: 109px;
-    } 
-
-    .header__main-title {
-        font-size: 47px;
-        line-height: 70px;
-    }   
-     
-    // ----- tour -----//
-     
-    .tour__options {
-        margin-bottom: 50px; 
-    } 
-     
-   // ----- about-----//
- 
-    .about__inner{ 
-       padding-bottom: 0;
-    }   
-      
-    // ----- reviews -----// 
-
-    .reviews__title {
-        margin: 0 auto 30px;
-    } 
-
-} 
-  
-@media(max-width: 510px){     
-   
-    // ------ benefits -----// 
-     
- .benefits__content-items{ 
-    grid-template-columns: repeat(1, 1fr); 
-    grid-template-rows: repeat(4, 1fr);
- }    
-  
- .benefits__content-item{ 
-     margin: 0 auto; 
-     padding: 15px 10px; 
-     border: 1px solid #FF9F1C;
-   } 
+            .benefits__content-text {
+                margin-bottom: 70px;
+            }
     
-    // -----album -----//    
-
-    .album {
-        padding-top: 81px; 
-       }
-
-} 
-
-@media(max-width: 450px){    
-     
-   // ----- header -----//     
+        }
     
-   .header__top {
-    margin-bottom: 95px;
-   } 
-   
-  .header__main {
-    margin-bottom: 97px;
-  }
-   
-  .header__main-title {
-    font-size: 45px;
-    line-height: 57px; 
-    margin-bottom: 25px;
-  }
- 
-//----- statistics -----//
-
-  .statistics__title{   
-    line-height: 40px;  
-  }   
     
-
-  //----- about -----// 
-  
-  .about__img-company-looks-map, 
-  .about__img-girl-with-map, 
-  .about__img-company-in-pool, 
-  .about__img-girl-with-backpack{  
-     margin: 9px;
-  }  
     
-  //-----  benefits -----//  
-
-  .benefits__img-title{ 
-     margin-bottom: 40px; 
-     font-size: 25px;
-  }  
-   
-  .benefits__content-text {
-    margin: 0 auto 50px;
-  } 
-   
-  .benefits__content-items {
-    grid-gap: 40px;
- }
-  
-    //----- album -----//  
-     
- .album__title { 
-    line-height: 37px;
- } 
-
- .album__girl-on-edge,
- .album__landscape,
- .album__venice,
- .album__girl-with-backpack,
- .album__couple-walking,
- .album__houses-on-lake {
-     margin: 10px; 
-     height: auto;
- }
-
-
-}  
- 
-@media(max-width: 435px) {  
-      
-      //----- reviews -----//    
-       
-      .reviews__decor {
-        position: absolute;
-        top: -7px;
-        left: 6px;
-    }  
-
-    .reviews__item {
-        padding: 30px 23px 30px;
-    } 
-     
-    .reviews__item-text {
-        margin-bottom: 23px;
-    } 
-     
-    .reviews__author-name::before,  
-    .reviews__author-name-mod::before { 
-        position: absolute;
-        top: -1px;
-        left: 25px;
-    } 
-     
-     
-    //----- book -----//  
-
-    .book {
-        padding-top: 30px;
-    }
-} 
-
- 
-@media(max-width: 395px) {
-
-    // ----- header -----//       
-
-    .logo__img {
-        max-width: 87%;
-    }
-
-    .header__top-nav .casual-btn {
-        padding: 10px 15px;
-    } 
-     
-    // -----tour -----//  
-
-    .tour {
-        padding-top: 75px;
-    }
-
-} 
- 
- 
-@media(max-width: 370px) {
-
-    // ----- header -----//      
-
-    .header__top {
-        margin-bottom: 25px;
-    }
-
-    .header__top .logo {
-        display: block;
-        width: 450px;
-    }
-
-    .header__top-nav .casual-btn {
-        padding: 7px 7px;
-        width: 75px;
-        margin: 0 21px 0 0;
-    }
-
-    .header__main-text {
-        margin-bottom: 50px;
-    }
-
-    .header__main {
-        margin-bottom: 80px;
-    }  
-      
-
-    // ----- tour ----- //   
-     
-    .tour {
-        padding-top: 50px;
-    }
-      
-    .tour__top {
-        margin-bottom: 10px; 
-    }
-
-    .tour__top-title {
-        line-height: 37px;
-    } 
-     
-    .tour__options {
-        margin-bottom: 35px;
-    }  
-     
-      // ----- reviews ----- //   
-     
-    .reviews__title {
-        font-size: 40px;
-        line-height: 50px;  
-        margin: 0 auto 15px;
-    }  
-     
-     
-       //-----   team  -----//   
-
-       .team__title {
-        margin-bottom: 47px; 
-    } 
-      
-     
-     //-----  book  -----//   
-     
-    .book__title {
-        line-height: 45px;
-    } 
-      
+        @media(max-width: 1230px) {
     
-    .book__btn { 
-        margin-bottom: 70px;
-    }
-} 
- 
-@media(max-width: 350px) {   
-     
-    // ----- reviews ----- //      
-     
-    .reviews__item {
-        padding: 15px 13px 15px;  
-        margin: 15px 4px;
-
-    } 
-
-    .reviews__decor {
-        position: absolute;
-        top: -7px;
-        left: -9px;
-    }    
-     
-    .reviews__item-text-padding {
-        padding-left: 5px;
-    }
-    .reviews__item-text {
-        margin-bottom: 19px;
-    }  
-} 
- 
+            //-----  album -----//  
+    
+            .album__photos {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                grid-gap: 0;
+            }
+    
+    
+            .album__landscape,
+            .album__girl-with-backpack {
+                height: 327px;
+            }
+    
+    
+            .album__girl-on-edge,
+            .album__landscape,
+            .album__venice,
+            .album__girl-with-backpack,
+            .album__couple-walking,
+            .album__houses-on-lake {
+                margin: 15px;
+            }
+    
+            .album__girl-on-edge {
+                order: 1;
+                height: 518px;
+            }
+    
+            .album__couple-walking {
+                order: 2;
+                height: 518px;
+            }
+    
+            .album__venice {
+                order: 3;
+                height: 518px;
+            }
+    
+    
+            .album__houses-on-lake {
+                height: 327px;
+                order: 5;
+            }
+    
+            //----- reviews -----// 
+    
+            .reviews__inner {
+                padding-bottom: 25px;
+                text-align: center;
+            }
+    
+            .reviews__title {
+                margin: 0 auto 45px;
+            }
+    
+            .reviews__items {
+                position: initial;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+    
+            .reviews__item {
+                margin: 15px;
+            }
+    
+    
+            //----- team -----// 
+    
+            .team {
+                padding-top: 40px;
+            }
+    
+        }
+    
+    
+    
+        @media(max-width: 1225px) {
+    
+            //-----   tour -----//  
+    
+            .tour__option {
+                margin: 10px 5px;
+            }
+    
+        }
+    
+    
+        @media(max-width: 1170px) {
+    
+            // ----- about -----//    
+    
+            .about {
+                padding-top: 47px;
+            }
+    
+            .about__inner {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+    
+            .about__content,
+            .about__images {
+                margin: 30px;
+            }
+    
+            // -----album -----//    
+    
+            .album {
+                padding-top: 137px;
+            }
+    
+    
+            //----- team -----//
+    
+            .team__members {
+                display: grid;
+                place-items: center;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                row-gap: 35px;
+                column-gap: 0;
+                margin-bottom: 127px;
+            }
+    
+    
+        }
+    
+        @media(max-width: 1040px) {
+    
+            //-----   team  -----//   
+    
+            .team__title {
+                margin-bottom: 57px;
+                line-height: 43px;
+            }
+    
+            .team__members {
+                row-gap: 25px;
+            }
+    
+        }
+    
+    
+        @media(max-width: 995px) {
+    
+            //-----   team  -----//     
+    
+            .team__members {
+                display: grid;
+                place-items: center;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                row-gap: 35px;
+                column-gap: 0;
+            }
+    
+            .team__members {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                row-gap: 0;
+            }
+    
+            .team__member {
+                margin: 15px;
+            }
+    
+        }
+    
+    
+        @media(max-width: 975px) {
+    
+            //-----   tour -----//   
+    
+            .tour {
+                padding-top: 105px;
+            }
+    
+            .tour .casual-btn {
+                padding: 20px 20px;
+            }
+    
+    
+            //----- statistics -----//
+    
+            .statistics__inner {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+    
+            .statistics__item {
+                margin: 40px;
+            }
+    
+            // -----album -----//    
+    
+            .album {
+                padding-top: 97px;
+            }
+    
+            // -----book -----//  
+    
+            .book__title {
+                line-height: 43px;
+            }
+    
+        }
+    
+        @media(max-width: 875px) {
+    
+            // -----reviews -----//     
+    
+            .reviews__title {
+                font-size: 48px;
+                line-height: 57px;
+                margin: 0 auto 37px;
+            }
+    
+            // ----- footer -----//       
+    
+            .footer-inner {
+                flex-wrap: wrap;
+            }
+    
+            .footer-inner__social,
+            .footer-inner__service,
+            .footer-inner__contact {
+                margin: 21px;
+            }
+    
+            .footer-inner__service {
+                text-align: center;
+                width: 100%;
+                max-width: 190px;
+                border: 1px solid transparent;
+            }
+    
+        }
+    
+    
+    
+        @media(max-width: 845px) {
+    
+            //-----  header -----// 
+    
+            .header__top .logo {
+                position: absolute;
+                top: 90px;
+                left: 0;
+            }
+    
+    
+            //-----   tour -----//     
+    
+            .tour__options {
+                margin-bottom: 85px;
+            }
+    
+            .tour .casual-btn {
+                padding: 14px 13px;
+                display: block;
+                width: 105px;
+                height: 57px;
+            }
+    
+            .tour__top-subtitle {
+                max-width: 500px;
+            }
+    
+            //----- reviews -----//     
+    
+            .reviews__inner {
+                padding: 25px 0 25px;
+            }
+    
+        }
+    
+        @media(max-width: 834px) {
+    
+            //-----   tour -----//       
+    
+            .tour__top {
+                margin-bottom: 57px;
+            }
+    
+            .tour__options {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+    
+            .tour__option {
+                margin: 15px 7px;
+            }
+    
+        }
+    
+    
+        @media(max-width: 750px) {
+    
+            // -----  container  ----- //
+    
+            .container {
+                padding: 0 10px;
+            }
+    
+    
+            // -----  tour ----- //
+    
+    
+            .tour__options {
+                margin-bottom: 67px;
+            }
+    
+            // ----- team ----- // 
+    
+            .team__members {
+                margin-bottom: 87px;
+            }
+    
+            // ----- book ----- //  
+    
+            .book {
+                margin-bottom: 75px;
+            }
+    
+            // ----- footer ----- //   
+    
+            .footer-inner {
+                margin-bottom: 67px;
+            }
+        }
+    
+    
+        @media(max-width: 700px) {
+    
+            // ----- tour -----// 
+    
+            .tour__top {
+                flex-wrap: wrap;
+                margin-bottom: 35px;
+            }
+    
+            .tour .casual-btn {
+                margin: 25px 17px;
+            }
+    
+            // ----- footer -----//   
+    
+            .footer-inner__social-text {
+                width: 100%;
+                max-width: 390px;
+            }
+    
+        }
+    
+        @media(max-width: 670px) {
+    
+            //-----  about -----//
+    
+            .about__img-girl-with-backpack {
+                margin-top: -81px;
+            }
+    
+            //----- team -----// 
+    
+            .team__members {
+                margin-bottom: 73px;
+            }
+    
+            //----- book -----// 
+    
+    
+            .book {
+                margin-bottom: 50px;
+            }
+    
+        }
+    
+    
+        @media(max-width: 650px) {
+    
+            //-----  header -----//    
+    
+            .header__top .logo {
+                position: initial;
+            }
+    
+            .menu {
+                order: 3;
+            }
+    
+            .header__top-nav .menu__list {
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                background-color: #fff;
+                text-align: center;
+                transition: all .3s;
+                transform: translateY(-300%);
+            }
+    
+            .header__top-nav .menu__list.menu__list--active {
+                transform: translateY(21%);
+                transition: all .3s;
+            }
+    
+            .header__top-nav .menu__item+.menu__item {
+                margin-left: 0;
+            }
+    
+            .menu__list .menu__link {
+                display: block;
+                font-size: 17px;
+                padding: 15px 0;
+            }
+    
+            .header__top-nav .casual-btn {
+                padding: 10px 20px;
+                display: block;
+                order: 0;
+                margin: 0 30px 0 0;
+            }
+    
+            .header__top-nav .menu__btn {
+                display: block;
+            }
+    
+            // ----- about -----//
+    
+            .about__img-girl-with-backpack {
+                margin-top: -95px;
+            }
+        }
+    
+    
+        @media(max-width: 630px) {
+    
+            //----- about -----//
+    
+            .about__images {
+                grid-gap: 15px
+            }
+    
+            .about__img-girl-with-backpack {
+                margin-top: -85px;
+            }
+    
+    
+            //----- benefits -----// 
+    
+            .benefits__content {
+                text-align: center;
+            }
+    
+            .benefits__content-text {
+                margin: 0 auto 70px;
+            }
+    
+            .benefits__content-item-img {
+                margin: 0 auto 20px;
+            }
+    
+    
+            //----- book -----//   
+    
+            .book {
+                padding-top: 30px;
+            }
+    
+            .book__btn {
+                margin-bottom: 83px;
+            }
+    
+            .book__title {
+                line-height: 47px;
+            }
+    
+        }
+    
+        @media(max-width: 598px) {
+    
+            //----- about -----//  
+    
+            .about__images {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                grid-gap: 0;
+                height: auto;
+            }
+    
+            .about__img-company-looks-map {
+                margin-left: 0;
+                margin: 15px;
+            }
+    
+            .about__img-girl-with-map,
+            .about__img-company-in-pool,
+            .about__img-girl-with-backpack {
+                margin: 15px;
+            }
+    
+            //----- footer -----//   
+    
+            .footer-inner__service {
+                text-align: left;
+            }
+    
+            .footer-inner__social {
+                border: 1px solid transparent;
+                width: 100%;
+                max-width: 419px;
+            }
+        }
+    
+        @media(max-width: 595px) {
+    
+            //----- about -----// 
+    
+            .about__images {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+            }
+    
+            .about__img-girl-with-map {
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+    
+            .about__img-girl-with-backpack {
+                grid-row-start: 3;
+                grid-row-end: 4;
+    
+            }
+    
+            //----- tour -----// 
+    
+            .tour {
+                padding-top: 52px;
+            }
+    
+            //----- album -----//  
+    
+            .album {
+                padding-top: 50px;
+            }
+    
+        }
+    
+        @media(max-width: 570px) {
+    
+            //----- benefits -----//   
+    
+            .benefits__content-items {
+                grid-gap: 50px;
+            }
+    
+            //----- footer -----//   
+    
+            .footer-inner {
+                margin-bottom: 30px;
+            }
+    
+            //----- reviews-----//     
+    
+            .reviews__title {
+                margin: 0 auto 27px;
+            }
+    
+        }
+    
+    
+        @media(max-width: 530px) {
+    
+            // ----- header -----// 
+    
+            .header__top {
+                margin-bottom: 125px;
+            }
+    
+            .header__main {
+                margin-bottom: 109px;
+            }
+    
+            .header__main-title {
+                font-size: 47px;
+                line-height: 70px;
+            }
+    
+            // ----- tour -----//
+    
+            .tour__options {
+                margin-bottom: 50px;
+            }
+    
+            // ----- about-----//
+    
+            .about__inner {
+                padding-bottom: 0;
+            }
+    
+            // ----- reviews -----// 
+    
+            .reviews__title {
+                margin: 0 auto 30px;
+            }
+    
+            // ----- team -----// 
+    
+            .team__members {
+                margin-bottom: 50px;
+            }
+    
+            // ----- footer -----//   
+    
+            .footer-inner {
+                justify-content: center;
+            }
+        }
+    
+        @media(max-width: 510px) {
+    
+            // ------ benefits -----// 
+    
+            .benefits__content-items {
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+            }
+    
+            .benefits__content-item {
+                margin: 0 auto;
+                padding: 15px 10px;
+                border: 1px solid #FF9F1C;
+            }
+    
+            // -----album -----//    
+    
+            .album {
+                padding-top: 81px;
+            }
+    
+    
+            .footer-inner {
+                border: 1px solid transparent;
+            }
+    
+        }
+    
+        @media(max-width: 450px) {
+    
+            // ----- header -----//     
+    
+            .header__top {
+                margin-bottom: 95px;
+            }
+    
+            .header__main {
+                margin-bottom: 97px;
+            }
+    
+            .header__main-title {
+                font-size: 45px;
+                line-height: 57px;
+                margin-bottom: 25px;
+            }
+    
+            //----- statistics -----//
+    
+            .statistics__title {
+                line-height: 40px;
+            }
+    
+    
+            //----- about -----// 
+    
+            .about__img-company-looks-map,
+            .about__img-girl-with-map,
+            .about__img-company-in-pool,
+            .about__img-girl-with-backpack {
+                margin: 9px;
+            }
+    
+            //-----  benefits -----//  
+    
+            .benefits__img-title {
+                margin-bottom: 40px;
+                font-size: 25px;
+            }
+    
+            .benefits__content-text {
+                margin: 0 auto 50px;
+            }
+    
+            .benefits__content-items {
+                grid-gap: 40px;
+            }
+    
+            //----- album -----//  
+    
+            .album__title {
+                line-height: 37px;
+            }
+    
+            .album__girl-on-edge,
+            .album__landscape,
+            .album__venice,
+            .album__girl-with-backpack,
+            .album__couple-walking,
+            .album__houses-on-lake {
+                margin: 10px;
+                height: auto;
+            }
+    
+            //----- footer -----//  
+    
+            .footer-inner__social,
+            .footer-inner__service,
+            .footer-inner__contact {
+                margin: 21px 0;
+            }
+    
+            .footer-inner {
+                margin-bottom: 0;
+            }
+    
+        }
+    
+        @media(max-width: 435px) {
+    
+            //----- reviews -----//    
+    
+            .reviews__decor {
+                position: absolute;
+                top: -7px;
+                left: 6px;
+            }
+    
+            .reviews__item {
+                padding: 30px 23px 30px;
+            }
+    
+            .reviews__item-text {
+                margin-bottom: 23px;
+            }
+    
+            .reviews__author-name::before,
+            .reviews__author-name-mod::before {
+                position: absolute;
+                top: -1px;
+                left: 25px;
+            }
+    
+    
+            //----- book -----//  
+    
+            .book {
+                padding-top: 30px;
+            }
+        }
+    
+    
+        @media(max-width: 395px) {
+    
+            // ----- header -----//       
+    
+            .logo__img {
+                max-width: 87%;
+            }
+    
+            .header__top-nav .casual-btn {
+                padding: 10px 15px;
+            }
+    
+            // -----tour -----//  
+    
+            .tour {
+                padding-top: 75px;
+            }
+    
+        }
+    
+    
+        @media(max-width: 370px) {
+    
+            // ----- header -----//      
+    
+            .header__top {
+                margin-bottom: 25px;
+            }
+    
+            .header__top .logo {
+                display: block;
+                width: 450px;
+            }
+    
+            .header__top-nav .casual-btn {
+                padding: 7px 7px;
+                width: 75px;
+                margin: 0 21px 0 0;
+            }
+    
+            .header__main-text {
+                margin-bottom: 50px;
+            }
+    
+            .header__main {
+                margin-bottom: 80px;
+            }
+    
+    
+            // ----- tour ----- //   
+    
+            .tour {
+                padding-top: 50px;
+            }
+    
+            .tour__top {
+                margin-bottom: 10px;
+            }
+    
+            .tour__top-title {
+                line-height: 37px;
+            }
+    
+            .tour__options {
+                margin-bottom: 35px;
+            }
+    
+            // ----- reviews ----- //   
+    
+            .reviews__title {
+                font-size: 40px;
+                line-height: 50px;
+                margin: 0 auto 15px;
+            }
+    
+    
+            //-----   team  -----//   
+    
+            .team__title {
+                margin-bottom: 47px;
+            }
+    
+    
+            //-----  book  -----//   
+    
+            .book__title {
+                line-height: 45px;
+            }
+    
+    
+            .book__btn {
+                margin-bottom: 70px;
+            }
+        }
+    
+        @media(max-width: 350px) {
+    
+            // ----- reviews ----- //      
+    
+            .reviews__item {
+                padding: 15px 13px 15px;
+                margin: 15px 4px;
+    
+            }
+    
+            .reviews__decor {
+                position: absolute;
+                top: -7px;
+                left: -9px;
+            }
+    
+            .reviews__item-text-padding {
+                padding-left: 5px;
+            }
+    
+            .reviews__item-text {
+                margin-bottom: 19px;
+            }
+    
+            // ----- team -----//  
+    
+            .team__members {
+                margin-bottom: 30px;
+            }
+    
+    
+            // ----- book -----// 
+    
+            .book {
+                margin-bottom: 18px;
+            }
+    
+            // ----- footer ----- //      
+    
+            .footer-inner__social-logo-img {
+                margin-bottom: 40px;
+            }
+    
+            .footer-inner__social-items {
+                margin-bottom: 47px;
+            }
+    
+        }
