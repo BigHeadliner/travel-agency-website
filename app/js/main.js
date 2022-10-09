@@ -18,7 +18,6 @@ $(function () {
         }
     }) 
      
-     
 
     const counterUp = window.counterUp.default
 

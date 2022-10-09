@@ -162,7 +162,13 @@
                 margin-bottom: 127px;
             }
     
-    
+            //----- scroll to top-----//
+
+             .scroll-to-top {
+                 width: 133px;
+                 height: 133px; 
+             } 
+
         }
     
         @media(max-width: 1040px) {
@@ -176,8 +182,9 @@
     
             .team__members {
                 row-gap: 25px;
-            }
-    
+            } 
+             
+         
         }
     
     
@@ -243,7 +250,15 @@
     
             .book__title {
                 line-height: 43px;
-            }
+            } 
+             
+            
+          //----- scroll to top-----//
+
+             .scroll-to-top {
+                width: 107px;
+                height: 107px;
+             } 
     
         }
     
@@ -369,7 +384,13 @@
     
             .footer-inner {
                 margin-bottom: 67px;
-            }
+            }  
+             
+            //----  fancybox -----//
+
+              .fancybox-slide { 
+                padding: 10px;
+              } 
         }
     
     
@@ -391,7 +412,14 @@
             .footer-inner__social-text {
                 width: 100%;
                 max-width: 390px;
-            }
+            } 
+             
+        //----- scroll to top-----//
+
+            .scroll-to-top {
+              width: 87px;
+              height: 87px;
+            }   
     
         }
     
@@ -658,7 +686,21 @@
     
             .footer-inner {
                 justify-content: center;
-            }
+            } 
+              
+            // ----- scroll-to-top -----//    
+
+            .scroll-to-top {
+                position: fixed;
+                right: 14px; 
+            }  
+             
+               //----  fancybox -----//
+
+               .fancybox-slide { 
+                padding: 5px;
+              } 
+
         }
     
         @media(max-width: 510px) {
@@ -818,6 +860,16 @@
     
             .tour {
                 padding-top: 75px;
+            } 
+             
+              
+             // ----- scroll-to-top -----//   
+
+            .scroll-to-top { 
+                position: fixed;
+                right: 9px;
+                width: 70px;
+                height: 70px;
             }
     
         }
